@@ -17,7 +17,7 @@ struct SliderView: View {
         HStack() {
             LabelView(value: value)
             Slider(value: $value, in: 0...250)
-                .frame(width: 250)
+                .frame(width: 200)
                 .accentColor(color)
                 .onChange(of: value) { newValue in
                     text = "\(lroundl(Float80(newValue)))"

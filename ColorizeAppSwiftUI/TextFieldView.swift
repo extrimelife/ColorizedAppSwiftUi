@@ -11,6 +11,7 @@ struct TextFieldView: View {
     
     @Binding var text: String
     @Binding var value: Double
+    @State private var showAlert = false
     
     var body: some View {
         TextField("", text: $text)
