@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B722B93729057DCF0052BF3D /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722B93629057DCF0052BF3D /* TextFieldView.swift */; };
 		B77BD0F229031AAD00478FA1 /* ColorizeAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77BD0F129031AAD00478FA1 /* ColorizeAppSwiftUIApp.swift */; };
 		B77BD0F429031AAD00478FA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77BD0F329031AAD00478FA1 /* ContentView.swift */; };
 		B77BD0F629031AAE00478FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77BD0F529031AAE00478FA1 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B722B93629057DCF0052BF3D /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		B77BD0EE29031AAD00478FA1 /* ColorizeAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizeAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77BD0F129031AAD00478FA1 /* ColorizeAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizeAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		B77BD0F329031AAD00478FA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				B77BD0FF29031E2800478FA1 /* ColorWindowView.swift */,
 				B77BD1012903237400478FA1 /* SliderView.swift */,
 				B77BD10329032C3D00478FA1 /* LabelView.swift */,
+				B722B93629057DCF0052BF3D /* TextFieldView.swift */,
 				B77BD0F529031AAE00478FA1 /* Assets.xcassets */,
 				B77BD0F729031AAE00478FA1 /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				B77BD10029031E2800478FA1 /* ColorWindowView.swift in Sources */,
 				B77BD1022903237400478FA1 /* SliderView.swift in Sources */,
+				B722B93729057DCF0052BF3D /* TextFieldView.swift in Sources */,
 				B77BD0F429031AAD00478FA1 /* ContentView.swift in Sources */,
 				B77BD0F229031AAD00478FA1 /* ColorizeAppSwiftUIApp.swift in Sources */,
 				B77BD10429032C3D00478FA1 /* LabelView.swift in Sources */,
